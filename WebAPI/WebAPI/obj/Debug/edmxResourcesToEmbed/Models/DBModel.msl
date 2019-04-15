@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="stsDBModelStoreContainer" CdmEntityContainer="DBModel">
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="stsDBModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="stsId" ColumnName="stsId" />
+          <ScalarProperty Name="stsName" ColumnName="stsName" />
+          <ScalarProperty Name="stsAddress" ColumnName="stsAddress" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

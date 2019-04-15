@@ -1,0 +1,9 @@
+<table class="table table-hover">
+  <tr *ngFor="let sts of service.list">
+    <td (click)="populateForm(sts)">{{sts.stsName}}</td>
+    <td (click)="populateForm(sts)">{{sts.stsAddress}}</td>
+    <td (click)="populateForm(sts)">{{sts.mobile}}</td>
+    <td (click)="populateForm(sts)">{{sts.Subject}}</td>
+    <td><button (click)="onDelete(sts.stsId)" class="btn btn-sm btn-outline-danger">X</button></td>
+  </tr>
+</table>
